@@ -36,4 +36,4 @@ d. Create Pipeline:
 - Set credentials if necessary (for private repos)
 - Set "Branch Specifier" as "`*/main`"
 - Set "Script Path" with the path to the Jenkins file (like "`spring-boot-app/JenkinsFile`")
-- Save the item
+- Save the pipeline
