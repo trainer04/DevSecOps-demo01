@@ -1,6 +1,6 @@
 # DevSecOps-demo01
 
-# For Linux:
+## For Linux:
 
 1. Check partition size (setup > 20 Gb if necessary)  
 `df -h`
