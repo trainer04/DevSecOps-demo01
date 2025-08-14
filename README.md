@@ -22,4 +22,6 @@ a. Unblock Jenkins with `https://<ip>:8080`
 `sudo cat /var/lib/jenkins/secrets/initialAdminPassword`  
 b. Install suggested plugins  
 c. Add the "Docker Pipeline" plugin  
-d. Create Pipeline:
+d. Create Pipeline:  
+- Select "New Item"
+- 
