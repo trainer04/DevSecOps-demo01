@@ -17,7 +17,11 @@ According [instructions](https://docs.docker.com/engine/install/)
 5. Install Jenkins  
 According [instructions](https://www.jenkins.io/doc/book/installing/)
 
-6. Setup Jenkins configuration  
+6. Add user `jenkins` to the `docker` group  
+`sudo usermod -a -G docker jenkins`  
+then restart server to apply the changes
+
+7. Setup Jenkins configuration  
 a. Unblock Jenkins with `https://<ip>:8080`  
 `sudo cat /var/lib/jenkins/secrets/initialAdminPassword`  
 b. Install suggested plugins  
