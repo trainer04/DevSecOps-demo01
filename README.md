@@ -16,7 +16,7 @@ According [instructions](https://docs.docker.com/engine/install/)
 According [instructions](https://www.jenkins.io/doc/book/installing/)
 
 6. Setup Jenkins configuration  
-a. Unblock Jenkins with https://<ip>:8080  
+a. Unblock Jenkins with `https://<ip>:8080`  
 `sudo cat /var/lib/jenkins/secrets/initialAdminPassword`  
 b. Install suggested plugins  
 c. Add the "Docker Pipeline" plugin  
