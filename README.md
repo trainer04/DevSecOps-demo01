@@ -1,6 +1,7 @@
 # DevSecOps-demo01
 
-1. Check partition size (setup > 20 Gb if necessary)   df -h
+1. Check partition size (setup > 20 Gb if necessary)  
+`df -h`
 
 2. Install Java 21   sudo apt install openjdk-21-jdk
 
