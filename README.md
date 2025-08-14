@@ -3,9 +3,11 @@
 1. Check partition size (setup > 20 Gb if necessary)  
 `df -h`
 
-2. Install Java 21   sudo apt install openjdk-21-jdk
+2. Install Java 21  
+`sudo apt install openjdk-21-jdk`
 
-3. Docker   According instructions https://docs.docker.com/engine/install/
+3. Docker  
+According [instructions](https://docs.docker.com/engine/install/)
 
 4. Local repo for Docker:   sudo docker run -d -p 5000:5000 --restart=always --name local-registry registry:2
 
