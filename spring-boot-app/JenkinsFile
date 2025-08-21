@@ -14,6 +14,19 @@ pipeline {
       }
     }
 
+    stage('SAST with Semgrep') {
+      
+      agent any
+      
+      steps {
+        
+        sh '''docker pull semgrep/semgrep && docker run --rm -v "${PWD}/spring-boot-app:/src" semgrep/semgrep semgrep scan --config=auto --text --text-output="SAST_reports/semgrep.txt"'''
+        
+        input 'Do you accept SAST results?'
+        echo 'Proceed further...'
+      }
+    }
+
     stage('Build Application') {
       agent {
         docker {
